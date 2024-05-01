@@ -1,0 +1,8 @@
+INPUT(a)
+INPUT(b)
+INPUT(c)
+OUTPUT(k)
+f = NOT(b)
+g = AND(a, b)
+h = AND(f, c)
+k = OR(g, h)
