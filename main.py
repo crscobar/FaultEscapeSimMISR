@@ -492,9 +492,16 @@ def listToString(s):
 # Main function starts
 
 # Step 1: get circuit file name from command line
-print(chalk.yellow('******************************************************************'))
-print(chalk.yellow('                         CPU Fault Simulator'))
-print(chalk.yellow('******************************************************************\n'))
+print(chalk.yellow("*********************************************************************************************************"))
+print(chalk.yellow('* ___  ________ ___________  ______          _ _     _____                           _____ _            *'))
+print(chalk.yellow('* |  \/  |_   _/  ___| ___ \ |  ___|        | | |   |  ___|                         /  ___(_)           *'))
+print(chalk.yellow('* | .  . | | | \ `--.| |_/ / | |_ __ _ _   _| | |_  | |__ ___  ___ __ _ _ __   ___  \ `--. _ _ __ ___   *'))
+print(chalk.yellow("* | |\/| | | |  `--. \    /  |  _/ _` | | | | | __| |  __/ __|/ __/ _` | '_ \ / _ \  `--. \ | '_ ` _ \  *"))
+print(chalk.yellow('* | |  | |_| |_/\__/ / |\ \  | || (_| | |_| | | |_  | |__\__ \ (_| (_| | |_) |  __/ /\__/ / | | | | | | *'))
+print(chalk.yellow('* \_|  |_/\___/\____/\_| \_| \_| \__,_|\__,_|_|\__| \____/___/\___\__,_| .__/ \___| \____/|_|_| |_| |_| *'))
+print(chalk.yellow('*                                                                      | |                              *'))
+print(chalk.yellow('*                                                                      |_|                              *'))
+print(chalk.yellow('*********************************************************************************************************\n'))
 
 wantToInputCircuitFile = str(
     input(chalk.green("Provide a benchfile name (return to accept 's208.bench' by default):\n")))
